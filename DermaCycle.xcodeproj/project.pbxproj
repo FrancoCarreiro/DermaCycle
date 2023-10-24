@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C026F1912AD71A1100992815 /* TratamientosDCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */; };
+		C026F1932AD71A2600992815 /* TratamientosEMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */; };
+		C026F1952AD71B0A00992815 /* depilacionLaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1942AD71B0A00992815 /* depilacionLaserView.swift */; };
+		C026F1972AD71B1800992815 /* esteticaMasculinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */; };
+		C026F1992ADC31E400992815 /* NotificacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1982ADC31E400992815 /* NotificacionesView.swift */; };
+		C03EA1F52AC062E900BF1E57 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA1F42AC062E900BF1E57 /* Contacto.swift */; };
+		C03EA1F72AC062F100BF1E57 /* TratamientosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */; };
+		C041698E2A81741A005A912C /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041698D2A81741A005A912C /* homeView.swift */; };
+		C047DE712A8916C30039C24F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047DE702A8916C30039C24F /* SplashScreenView.swift */; };
+		C09563542A94081400C250C6 /* calendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09563532A94081400C250C6 /* calendarioView.swift */; };
+		C095E8ED2ACF209A009FF20C /* TratamientosCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */; };
+		C09D62792A86BC7F00B5CA15 /* promocionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D62782A86BC7F00B5CA15 /* promocionesView.swift */; };
+		C09D627B2A86BC9700B5CA15 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D627A2A86BC9700B5CA15 /* userView.swift */; };
+		C0C9FF1C2AD6FFE8002DD84E /* TratamientosFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */; };
+		C0C9FF1E2AD70111002DD84E /* TratamientosFacialesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */; };
+		C0C9FF202AD70123002DD84E /* TratamientosCorporalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */; };
+		C0CC36CB2A798BC600306D70 /* DermaCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */; };
+		C0CC36CD2A798BC600306D70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC36CC2A798BC600306D70 /* ContentView.swift */; };
+		C0CC36CF2A798BC700306D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CC36CE2A798BC700306D70 /* Assets.xcassets */; };
+		C0CC36D22A798BC700306D70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CC36D12A798BC700306D70 /* Preview Assets.xcassets */; };
+		C0E263592ACB4DFF0049472F /* PromocionesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosDCViewModel.swift; sourceTree = "<group>"; };
+		C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosEMViewModel.swift; sourceTree = "<group>"; };
+		C026F1942AD71B0A00992815 /* depilacionLaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depilacionLaserView.swift; sourceTree = "<group>"; };
+		C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteticaMasculinaView.swift; sourceTree = "<group>"; };
+		C026F1982ADC31E400992815 /* NotificacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesView.swift; sourceTree = "<group>"; };
+		C03EA1F42AC062E900BF1E57 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosModel.swift; sourceTree = "<group>"; };
+		C041698D2A81741A005A912C /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		C047DE702A8916C30039C24F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		C09563532A94081400C250C6 /* calendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarioView.swift; sourceTree = "<group>"; };
+		C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCViewModel.swift; sourceTree = "<group>"; };
+		C09D62782A86BC7F00B5CA15 /* promocionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promocionesView.swift; sourceTree = "<group>"; };
+		C09D627A2A86BC9700B5CA15 /* userView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userView.swift; sourceTree = "<group>"; };
+		C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFModel.swift; sourceTree = "<group>"; };
+		C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFacialesView.swift; sourceTree = "<group>"; };
+		C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCorporalesView.swift; sourceTree = "<group>"; };
+		C0CC36C72A798BC600306D70 /* DermaCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermaCycleApp.swift; sourceTree = "<group>"; };
+		C0CC36CC2A798BC600306D70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0CC36CE2A798BC700306D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0CC36D12A798BC700306D70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0CC36D82A798BE800306D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CC36C42A798BC600306D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03EA1F82AC0630200BF1E57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */,
+				C03EA1F42AC062E900BF1E57 /* Contacto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C03EA1F92AC0631900BF1E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC36CC2A798BC600306D70 /* ContentView.swift */,
+				C041698D2A81741A005A912C /* homeView.swift */,
+				C09D627A2A86BC9700B5CA15 /* userView.swift */,
+				C09D62782A86BC7F00B5CA15 /* promocionesView.swift */,
+				C026F1982ADC31E400992815 /* NotificacionesView.swift */,
+				C09563532A94081400C250C6 /* calendarioView.swift */,
+				C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */,
+				C026F1942AD71B0A00992815 /* depilacionLaserView.swift */,
+				C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */,
+				C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C03EA1FA2AC2339800BF1E57 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */,
+				C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */,
+				C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */,
+				C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */,
+				C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		C0CC36BE2A798BC600306D70 = {
+			isa = PBXGroup;
+			children = (
+				C0CC36C92A798BC600306D70 /* DermaCycle */,
+				C0CC36C82A798BC600306D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CC36C82A798BC600306D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC36C72A798BC600306D70 /* DermaCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CC36C92A798BC600306D70 /* DermaCycle */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC36D82A798BE800306D70 /* Info.plist */,
+				C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */,
+				C03EA1F92AC0631900BF1E57 /* View */,
+				C03EA1F82AC0630200BF1E57 /* Model */,
+				C03EA1FA2AC2339800BF1E57 /* VM */,
+				C0CC36D02A798BC700306D70 /* Preview Content */,
+				C047DE702A8916C30039C24F /* SplashScreenView.swift */,
+				C0CC36CE2A798BC700306D70 /* Assets.xcassets */,
+			);
+			path = DermaCycle;
+			sourceTree = "<group>";
+		};
+		C0CC36D02A798BC700306D70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC36D12A798BC700306D70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CC36C62A798BC600306D70 /* DermaCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CC36D52A798BC700306D70 /* Build configuration list for PBXNativeTarget "DermaCycle" */;
+			buildPhases = (
+				C0CC36C32A798BC600306D70 /* Sources */,
+				C0CC36C42A798BC600306D70 /* Frameworks */,
+				C0CC36C52A798BC600306D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DermaCycle;
+			productName = DermaCycle;
+			productReference = C0CC36C72A798BC600306D70 /* DermaCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CC36BF2A798BC600306D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C0CC36C62A798BC600306D70 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C0CC36C22A798BC600306D70 /* Build configuration list for PBXProject "DermaCycle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0CC36BE2A798BC600306D70;
+			productRefGroup = C0CC36C82A798BC600306D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CC36C62A798BC600306D70 /* DermaCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CC36C52A798BC600306D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CC36D22A798BC700306D70 /* Preview Assets.xcassets in Resources */,
+				C0CC36CF2A798BC700306D70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CC36C32A798BC600306D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09D627B2A86BC9700B5CA15 /* userView.swift in Sources */,
+				C026F1932AD71A2600992815 /* TratamientosEMViewModel.swift in Sources */,
+				C026F1972AD71B1800992815 /* esteticaMasculinaView.swift in Sources */,
+				C0C9FF1C2AD6FFE8002DD84E /* TratamientosFModel.swift in Sources */,
+				C0CC36CD2A798BC600306D70 /* ContentView.swift in Sources */,
+				C03EA1F72AC062F100BF1E57 /* TratamientosModel.swift in Sources */,
+				C0C9FF1E2AD70111002DD84E /* TratamientosFacialesView.swift in Sources */,
+				C03EA1F52AC062E900BF1E57 /* Contacto.swift in Sources */,
+				C095E8ED2ACF209A009FF20C /* TratamientosCViewModel.swift in Sources */,
+				C09D62792A86BC7F00B5CA15 /* promocionesView.swift in Sources */,
+				C0E263592ACB4DFF0049472F /* PromocionesViewModel.swift in Sources */,
+				C09563542A94081400C250C6 /* calendarioView.swift in Sources */,
+				C0C9FF202AD70123002DD84E /* TratamientosCorporalesView.swift in Sources */,
+				C0CC36CB2A798BC600306D70 /* DermaCycleApp.swift in Sources */,
+				C026F1992ADC31E400992815 /* NotificacionesView.swift in Sources */,
+				C041698E2A81741A005A912C /* homeView.swift in Sources */,
+				C026F1912AD71A1100992815 /* TratamientosDCViewModel.swift in Sources */,
+				C026F1952AD71B0A00992815 /* depilacionLaserView.swift in Sources */,
+				C047DE712A8916C30039C24F /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0CC36D32A798BC700306D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0CC36D42A798BC700306D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0CC36D62A798BC700306D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DermaCycle/Preview Content\"";
+				DEVELOPMENT_TEAM = X93XUQKD34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DermaCycle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancoCarreiro.DermaCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0CC36D72A798BC700306D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DermaCycle/Preview Content\"";
+				DEVELOPMENT_TEAM = X93XUQKD34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DermaCycle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancoCarreiro.DermaCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CC36C22A798BC600306D70 /* Build configuration list for PBXProject "DermaCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CC36D32A798BC700306D70 /* Debug */,
+				C0CC36D42A798BC700306D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CC36D52A798BC700306D70 /* Build configuration list for PBXNativeTarget "DermaCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CC36D62A798BC700306D70 /* Debug */,
+				C0CC36D72A798BC700306D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0CC36BF2A798BC600306D70 /* Project object */;
+}

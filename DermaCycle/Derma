@@ -1,0 +1,3891 @@
+diff --git a/DermaCycle.xcodeproj/project.pbxproj b/DermaCycle.xcodeproj/project.pbxproj
+index e6ed4cb..4be30cb 100644
+--- a/DermaCycle.xcodeproj/project.pbxproj
++++ b/DermaCycle.xcodeproj/project.pbxproj
+@@ -7,33 +7,53 @@
+ 	objects = {
+ 
+ /* Begin PBXBuildFile section */
++		C026F1912AD71A1100992815 /* TratamientosDCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */; };
++		C026F1932AD71A2600992815 /* TratamientosEMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */; };
++		C026F1952AD71B0A00992815 /* depilacionLaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1942AD71B0A00992815 /* depilacionLaserView.swift */; };
++		C026F1972AD71B1800992815 /* esteticaMasculinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */; };
++		C026F1992ADC31E400992815 /* NotificacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026F1982ADC31E400992815 /* NotificacionesView.swift */; };
++		C03EA1F52AC062E900BF1E57 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA1F42AC062E900BF1E57 /* Contacto.swift */; };
++		C03EA1F72AC062F100BF1E57 /* TratamientosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */; };
+ 		C041698E2A81741A005A912C /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041698D2A81741A005A912C /* homeView.swift */; };
+ 		C047DE712A8916C30039C24F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047DE702A8916C30039C24F /* SplashScreenView.swift */; };
+-		C09563522A93CA7F00C250C6 /* compactDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09563512A93CA7F00C250C6 /* compactDesignView.swift */; };
+ 		C09563542A94081400C250C6 /* calendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09563532A94081400C250C6 /* calendarioView.swift */; };
+-		C09563562A94085200C250C6 /* userProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09563552A94085200C250C6 /* userProfileView.swift */; };
++		C095E8ED2ACF209A009FF20C /* TratamientosCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */; };
+ 		C09D62792A86BC7F00B5CA15 /* promocionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D62782A86BC7F00B5CA15 /* promocionesView.swift */; };
+-		C09D627B2A86BC9700B5CA15 /* NotificacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D627A2A86BC9700B5CA15 /* NotificacionesView.swift */; };
++		C09D627B2A86BC9700B5CA15 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D627A2A86BC9700B5CA15 /* userView.swift */; };
++		C0C9FF1C2AD6FFE8002DD84E /* TratamientosFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */; };
++		C0C9FF1E2AD70111002DD84E /* TratamientosFacialesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */; };
++		C0C9FF202AD70123002DD84E /* TratamientosCorporalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */; };
+ 		C0CC36CB2A798BC600306D70 /* DermaCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */; };
+ 		C0CC36CD2A798BC600306D70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC36CC2A798BC600306D70 /* ContentView.swift */; };
+ 		C0CC36CF2A798BC700306D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CC36CE2A798BC700306D70 /* Assets.xcassets */; };
+ 		C0CC36D22A798BC700306D70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CC36D12A798BC700306D70 /* Preview Assets.xcassets */; };
++		C0E263592ACB4DFF0049472F /* PromocionesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXFileReference section */
++		C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosDCViewModel.swift; sourceTree = "<group>"; };
++		C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosEMViewModel.swift; sourceTree = "<group>"; };
++		C026F1942AD71B0A00992815 /* depilacionLaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depilacionLaserView.swift; sourceTree = "<group>"; };
++		C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteticaMasculinaView.swift; sourceTree = "<group>"; };
++		C026F1982ADC31E400992815 /* NotificacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesView.swift; sourceTree = "<group>"; };
++		C03EA1F42AC062E900BF1E57 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
++		C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosModel.swift; sourceTree = "<group>"; };
+ 		C041698D2A81741A005A912C /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+ 		C047DE702A8916C30039C24F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+-		C09563512A93CA7F00C250C6 /* compactDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compactDesignView.swift; sourceTree = "<group>"; };
+ 		C09563532A94081400C250C6 /* calendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarioView.swift; sourceTree = "<group>"; };
+-		C09563552A94085200C250C6 /* userProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileView.swift; sourceTree = "<group>"; };
++		C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCViewModel.swift; sourceTree = "<group>"; };
+ 		C09D62782A86BC7F00B5CA15 /* promocionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promocionesView.swift; sourceTree = "<group>"; };
+-		C09D627A2A86BC9700B5CA15 /* NotificacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesView.swift; sourceTree = "<group>"; };
++		C09D627A2A86BC9700B5CA15 /* userView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userView.swift; sourceTree = "<group>"; };
++		C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFModel.swift; sourceTree = "<group>"; };
++		C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFacialesView.swift; sourceTree = "<group>"; };
++		C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCorporalesView.swift; sourceTree = "<group>"; };
+ 		C0CC36C72A798BC600306D70 /* DermaCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermaCycleApp.swift; sourceTree = "<group>"; };
+ 		C0CC36CC2A798BC600306D70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+ 		C0CC36CE2A798BC700306D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ 		C0CC36D12A798BC700306D70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+ 		C0CC36D82A798BE800306D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
++		C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesViewModel.swift; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -47,6 +67,44 @@
+ /* End PBXFrameworksBuildPhase section */
+ 
+ /* Begin PBXGroup section */
++		C03EA1F82AC0630200BF1E57 /* Model */ = {
++			isa = PBXGroup;
++			children = (
++				C03EA1F62AC062F100BF1E57 /* TratamientosModel.swift */,
++				C03EA1F42AC062E900BF1E57 /* Contacto.swift */,
++			);
++			path = Model;
++			sourceTree = "<group>";
++		};
++		C03EA1F92AC0631900BF1E57 /* View */ = {
++			isa = PBXGroup;
++			children = (
++				C0CC36CC2A798BC600306D70 /* ContentView.swift */,
++				C041698D2A81741A005A912C /* homeView.swift */,
++				C09D627A2A86BC9700B5CA15 /* userView.swift */,
++				C09D62782A86BC7F00B5CA15 /* promocionesView.swift */,
++				C026F1982ADC31E400992815 /* NotificacionesView.swift */,
++				C09563532A94081400C250C6 /* calendarioView.swift */,
++				C0C9FF1D2AD70111002DD84E /* TratamientosFacialesView.swift */,
++				C026F1942AD71B0A00992815 /* depilacionLaserView.swift */,
++				C026F1962AD71B1800992815 /* esteticaMasculinaView.swift */,
++				C0C9FF1F2AD70123002DD84E /* TratamientosCorporalesView.swift */,
++			);
++			path = View;
++			sourceTree = "<group>";
++		};
++		C03EA1FA2AC2339800BF1E57 /* VM */ = {
++			isa = PBXGroup;
++			children = (
++				C0E263582ACB4DFF0049472F /* PromocionesViewModel.swift */,
++				C095E8EC2ACF209A009FF20C /* TratamientosCViewModel.swift */,
++				C026F1902AD71A1100992815 /* TratamientosDCViewModel.swift */,
++				C026F1922AD71A2600992815 /* TratamientosEMViewModel.swift */,
++				C0C9FF1B2AD6FFE8002DD84E /* TratamientosFModel.swift */,
++			);
++			path = VM;
++			sourceTree = "<group>";
++		};
+ 		C0CC36BE2A798BC600306D70 = {
+ 			isa = PBXGroup;
+ 			children = (
+@@ -68,16 +126,12 @@
+ 			children = (
+ 				C0CC36D82A798BE800306D70 /* Info.plist */,
+ 				C0CC36CA2A798BC600306D70 /* DermaCycleApp.swift */,
+-				C0CC36CC2A798BC600306D70 /* ContentView.swift */,
+-				C09563512A93CA7F00C250C6 /* compactDesignView.swift */,
+-				C09563552A94085200C250C6 /* userProfileView.swift */,
+-				C09563532A94081400C250C6 /* calendarioView.swift */,
+-				C09D62782A86BC7F00B5CA15 /* promocionesView.swift */,
+-				C09D627A2A86BC9700B5CA15 /* NotificacionesView.swift */,
+-				C041698D2A81741A005A912C /* homeView.swift */,
+-				C0CC36CE2A798BC700306D70 /* Assets.xcassets */,
++				C03EA1F92AC0631900BF1E57 /* View */,
++				C03EA1F82AC0630200BF1E57 /* Model */,
++				C03EA1FA2AC2339800BF1E57 /* VM */,
+ 				C0CC36D02A798BC700306D70 /* Preview Content */,
+ 				C047DE702A8916C30039C24F /* SplashScreenView.swift */,
++				C0CC36CE2A798BC700306D70 /* Assets.xcassets */,
+ 			);
+ 			path = DermaCycle;
+ 			sourceTree = "<group>";
+@@ -160,14 +214,24 @@
+ 			isa = PBXSourcesBuildPhase;
+ 			buildActionMask = 2147483647;
+ 			files = (
+-				C09563522A93CA7F00C250C6 /* compactDesignView.swift in Sources */,
+-				C09D627B2A86BC9700B5CA15 /* NotificacionesView.swift in Sources */,
++				C09D627B2A86BC9700B5CA15 /* userView.swift in Sources */,
++				C026F1932AD71A2600992815 /* TratamientosEMViewModel.swift in Sources */,
++				C026F1972AD71B1800992815 /* esteticaMasculinaView.swift in Sources */,
++				C0C9FF1C2AD6FFE8002DD84E /* TratamientosFModel.swift in Sources */,
+ 				C0CC36CD2A798BC600306D70 /* ContentView.swift in Sources */,
+-				C09563562A94085200C250C6 /* userProfileView.swift in Sources */,
++				C03EA1F72AC062F100BF1E57 /* TratamientosModel.swift in Sources */,
++				C0C9FF1E2AD70111002DD84E /* TratamientosFacialesView.swift in Sources */,
++				C03EA1F52AC062E900BF1E57 /* Contacto.swift in Sources */,
++				C095E8ED2ACF209A009FF20C /* TratamientosCViewModel.swift in Sources */,
+ 				C09D62792A86BC7F00B5CA15 /* promocionesView.swift in Sources */,
++				C0E263592ACB4DFF0049472F /* PromocionesViewModel.swift in Sources */,
+ 				C09563542A94081400C250C6 /* calendarioView.swift in Sources */,
++				C0C9FF202AD70123002DD84E /* TratamientosCorporalesView.swift in Sources */,
+ 				C0CC36CB2A798BC600306D70 /* DermaCycleApp.swift in Sources */,
++				C026F1992ADC31E400992815 /* NotificacionesView.swift in Sources */,
+ 				C041698E2A81741A005A912C /* homeView.swift in Sources */,
++				C026F1912AD71A1100992815 /* TratamientosDCViewModel.swift in Sources */,
++				C026F1952AD71B0A00992815 /* depilacionLaserView.swift in Sources */,
+ 				C047DE712A8916C30039C24F /* SplashScreenView.swift in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+diff --git a/DermaCycle/Assets.xcassets/Agenda.imageset/Contents.json b/DermaCycle/Assets.xcassets/Agenda.imageset/Contents.json
+new file mode 100644
+index 0000000..a69546d
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Agenda.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "agenda.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "agenda@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "agenda@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Agenda.imageset/agenda.png b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda.png
+new file mode 100644
+index 0000000..bca8f60
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda.png differ
+diff --git a/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@2x.png b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@2x.png
+new file mode 100644
+index 0000000..d71fb9b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@3x.png b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@3x.png
+new file mode 100644
+index 0000000..4f42739
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Agenda.imageset/agenda@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/Contents.json b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/Contents.json
+new file mode 100644
+index 0000000..324f099
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/Contents.json	
+@@ -0,0 +1,116 @@
++{
++  "images" : [
++    {
++      "filename" : "iPhone-20x20@2x.png",
++      "idiom" : "iphone",
++      "scale" : "2x",
++      "size" : "20x20"
++    },
++    {
++      "filename" : "iPhone-20x20@3x.png",
++      "idiom" : "iphone",
++      "scale" : "3x",
++      "size" : "20x20"
++    },
++    {
++      "filename" : "iPhone-29x29@2x.png",
++      "idiom" : "iphone",
++      "scale" : "2x",
++      "size" : "29x29"
++    },
++    {
++      "filename" : "iPhone-29x29@3x.png",
++      "idiom" : "iphone",
++      "scale" : "3x",
++      "size" : "29x29"
++    },
++    {
++      "filename" : "iPhone-40x40@2x.png",
++      "idiom" : "iphone",
++      "scale" : "2x",
++      "size" : "40x40"
++    },
++    {
++      "filename" : "iPhone-40x40@3x.png",
++      "idiom" : "iphone",
++      "scale" : "3x",
++      "size" : "40x40"
++    },
++    {
++      "filename" : "iPhone-60x60@2x.png",
++      "idiom" : "iphone",
++      "scale" : "2x",
++      "size" : "60x60"
++    },
++    {
++      "filename" : "iPhone-60x60@3x.png",
++      "idiom" : "iphone",
++      "scale" : "3x",
++      "size" : "60x60"
++    },
++    {
++      "filename" : "iPad-20x20@1x.png",
++      "idiom" : "ipad",
++      "scale" : "1x",
++      "size" : "20x20"
++    },
++    {
++      "filename" : "iPad-20x20@2x.png",
++      "idiom" : "ipad",
++      "scale" : "2x",
++      "size" : "20x20"
++    },
++    {
++      "filename" : "iPad-29x29@1x.png",
++      "idiom" : "ipad",
++      "scale" : "1x",
++      "size" : "29x29"
++    },
++    {
++      "filename" : "iPad-29x29@2x.png",
++      "idiom" : "ipad",
++      "scale" : "2x",
++      "size" : "29x29"
++    },
++    {
++      "filename" : "iPad-40x40@1x.png",
++      "idiom" : "ipad",
++      "scale" : "1x",
++      "size" : "40x40"
++    },
++    {
++      "filename" : "iPad-40x40@2x.png",
++      "idiom" : "ipad",
++      "scale" : "2x",
++      "size" : "40x40"
++    },
++    {
++      "filename" : "iPad-76x76@1x.png",
++      "idiom" : "ipad",
++      "scale" : "1x",
++      "size" : "76x76"
++    },
++    {
++      "filename" : "iPad-76x76@2x.png",
++      "idiom" : "ipad",
++      "scale" : "2x",
++      "size" : "76x76"
++    },
++    {
++      "filename" : "iPad-83x83@2x.png",
++      "idiom" : "ipad",
++      "scale" : "2x",
++      "size" : "83.5x83.5"
++    },
++    {
++      "filename" : "iTunesArtwork.png",
++      "idiom" : "ios-marketing",
++      "scale" : "1x",
++      "size" : "1024x1024"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@1x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@1x.png
+new file mode 100644
+index 0000000..2e1de30
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@1x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@2x.png
+new file mode 100644
+index 0000000..9e9d6e8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-20x20@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@1x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@1x.png
+new file mode 100644
+index 0000000..f2a974e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@1x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@2x.png
+new file mode 100644
+index 0000000..92df220
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-29x29@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@1x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@1x.png
+new file mode 100644
+index 0000000..9e9d6e8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@1x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@2x.png
+new file mode 100644
+index 0000000..b553761
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-40x40@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@1x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@1x.png
+new file mode 100644
+index 0000000..1a8c00c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@1x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@2x.png
+new file mode 100644
+index 0000000..e21f9d1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-76x76@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-83x83@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-83x83@2x.png
+new file mode 100644
+index 0000000..4332638
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPad-83x83@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@2x.png
+new file mode 100644
+index 0000000..9e9d6e8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@3x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@3x.png
+new file mode 100644
+index 0000000..7fd2833
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-20x20@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@2x.png
+new file mode 100644
+index 0000000..92df220
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@3x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@3x.png
+new file mode 100644
+index 0000000..b0d46d9
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-29x29@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@2x.png
+new file mode 100644
+index 0000000..b553761
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@3x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@3x.png
+new file mode 100644
+index 0000000..e3c03d6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-40x40@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@2x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@2x.png
+new file mode 100644
+index 0000000..e3c03d6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@3x.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@3x.png
+new file mode 100644
+index 0000000..420100f
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iPhone-60x60@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iTunesArtwork.png b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iTunesArtwork.png
+new file mode 100644
+index 0000000..f524f41
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/AppIcon 1.appiconset/iTunesArtwork.png differ
+diff --git a/DermaCycle/Assets.xcassets/CellBackground.imageset/Contents.json b/DermaCycle/Assets.xcassets/CellBackground.imageset/Contents.json
+new file mode 100644
+index 0000000..bf4e1a0
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/CellBackground.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Rectangle 2 Copy 2.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Rectangle 2 Copy 2@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Rectangle 2 Copy 2@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2.png b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2.png
+new file mode 100644
+index 0000000..3d99734
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2.png differ
+diff --git a/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@2x.png b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@2x.png
+new file mode 100644
+index 0000000..5d8eedb
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@3x.png b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@3x.png
+new file mode 100644
+index 0000000..868e5fa
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/CellBackground.imageset/Rectangle 2 Copy 2@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Colors/Contents.json b/DermaCycle/Assets.xcassets/Colors/Contents.json
+new file mode 100644
+index 0000000..73c0059
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Colors/Contents.json
+@@ -0,0 +1,6 @@
++{
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Colors/ReservationCancelledColor.colorset/Contents.json b/DermaCycle/Assets.xcassets/Colors/ReservationCancelledColor.colorset/Contents.json
+new file mode 100644
+index 0000000..571ca3b
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Colors/ReservationCancelledColor.colorset/Contents.json
+@@ -0,0 +1,20 @@
++{
++  "colors" : [
++    {
++      "color" : {
++        "color-space" : "srgb",
++        "components" : {
++          "alpha" : "1.000",
++          "blue" : "0.357",
++          "green" : "0.361",
++          "red" : "0.973"
++        }
++      },
++      "idiom" : "universal"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Colors/ReservationConfirmedColor.colorset/Contents.json b/DermaCycle/Assets.xcassets/Colors/ReservationConfirmedColor.colorset/Contents.json
+new file mode 100644
+index 0000000..29f45b8
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Colors/ReservationConfirmedColor.colorset/Contents.json
+@@ -0,0 +1,20 @@
++{
++  "colors" : [
++    {
++      "color" : {
++        "color-space" : "srgb",
++        "components" : {
++          "alpha" : "1.000",
++          "blue" : "0.561",
++          "green" : "0.706",
++          "red" : "0.004"
++        }
++      },
++      "idiom" : "universal"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Colors/ReservationPendingColor.colorset/Contents.json b/DermaCycle/Assets.xcassets/Colors/ReservationPendingColor.colorset/Contents.json
+new file mode 100644
+index 0000000..e75b7c2
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Colors/ReservationPendingColor.colorset/Contents.json
+@@ -0,0 +1,20 @@
++{
++  "colors" : [
++    {
++      "color" : {
++        "color-space" : "srgb",
++        "components" : {
++          "alpha" : "1.000",
++          "blue" : "0.847",
++          "green" : "0.522",
++          "red" : "0.310"
++        }
++      },
++      "idiom" : "universal"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep.png b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep.png
+new file mode 100644
+index 0000000..d9ceaa1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@2x.png b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@2x.png
+new file mode 100644
+index 0000000..7a13c77
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@3x.png b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@3x.png
+new file mode 100644
+index 0000000..6daecad
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Consulta-Dep@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Contents.json b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Contents.json
+new file mode 100644
+index 0000000..bc4e1db
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Consulta-Dep.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Consulta-Dep.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Consulta-Dep@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Consulta-Dep@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra.png b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra.png
+new file mode 100644
+index 0000000..c4f572d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@2x.png b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@2x.png
+new file mode 100644
+index 0000000..8c2d8c8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@3x.png b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@3x.png
+new file mode 100644
+index 0000000..b2738f7
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Consulta-Tra@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Contents.json b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Contents.json
+new file mode 100644
+index 0000000..567db8e
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Consulta-Tra.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Consulta-Tra.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Consulta-Tra@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Consulta-Tra@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Historial-btn.imageset/Contents.json b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Contents.json
+new file mode 100644
+index 0000000..2c2154a
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 9.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 9@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 9@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9.png b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9.png
+new file mode 100644
+index 0000000..390579b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9.png differ
+diff --git a/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@2x.png b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@2x.png
+new file mode 100644
+index 0000000..eb3ecd2
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@3x.png b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@3x.png
+new file mode 100644
+index 0000000..c5ba059
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Historial-btn.imageset/Group 9@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap.png
+new file mode 100644
+index 0000000..2a7efbb
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..077d7f5
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..0628414
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Logo.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Logo.imageset/Contents.json b/DermaCycle/Assets.xcassets/Logo.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Logo.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/NavBarLogo.imageset/Contents.json b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/Contents.json
+new file mode 100644
+index 0000000..b3bc85e
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "NavBarLogo.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "NavBarLogo@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "NavBarLogo@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo.png b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo.png
+new file mode 100644
+index 0000000..a9d3661
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo.png differ
+diff --git a/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@2x.png b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@2x.png
+new file mode 100644
+index 0000000..dfeae5b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@3x.png b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@3x.png
+new file mode 100644
+index 0000000..1e006c4
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/NavBarLogo.imageset/NavBarLogo@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Notifications/Contents.json b/DermaCycle/Assets.xcassets/Notifications/Contents.json
+new file mode 100644
+index 0000000..73c0059
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Notifications/Contents.json
+@@ -0,0 +1,6 @@
++{
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Contents.json b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Contents.json
+new file mode 100644
+index 0000000..636170f
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Contents.json
+@@ -0,0 +1,65 @@
++{
++  "images" : [
++    {
++      "filename" : "Rectangle 4 Copy.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 41,
++          "left" : 31,
++          "right" : 31,
++          "top" : 27
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Rectangle 4 Copy@2x.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 82,
++          "left" : 62,
++          "right" : 62,
++          "top" : 54
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Rectangle 4 Copy@3x.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 123,
++          "left" : 93,
++          "right" : 93,
++          "top" : 81
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy.png b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy.png
+new file mode 100644
+index 0000000..0ccdfe1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy.png differ
+diff --git a/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@2x.png b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@2x.png
+new file mode 100644
+index 0000000..fc69617
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@3x.png b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@3x.png
+new file mode 100644
+index 0000000..528ddc9
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Notifications/NotificationCellBackground.imageset/Rectangle 4 Copy@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap.png
+new file mode 100644
+index 0000000..41be909
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..917652c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..25092de
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Novedades.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Novedades.imageset/Contents.json b/DermaCycle/Assets.xcassets/Novedades.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Novedades.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap.png
+new file mode 100644
+index 0000000..f2cdcec
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..44cd657
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..f99c647
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Promo2.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Promo2.imageset/Contents.json b/DermaCycle/Assets.xcassets/Promo2.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Promo2.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Contents.json b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Contents.json
+new file mode 100644
+index 0000000..69d633b
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 2.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 2@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 2@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2.png b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2.png
+new file mode 100644
+index 0000000..180d666
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2.png differ
+diff --git a/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@2x.png b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@2x.png
+new file mode 100644
+index 0000000..dbb2e4d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@3x.png b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@3x.png
+new file mode 100644
+index 0000000..a695949
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/PromotionHeader.imageset/Group 2@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Contents.json
+new file mode 100644
+index 0000000..73c0059
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Contents.json
+@@ -0,0 +1,6 @@
++{
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Events.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/Contents.json
+new file mode 100644
+index 0000000..9338e67
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "calendar.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "calendar@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "calendar@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar.png b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar.png
+new file mode 100644
+index 0000000..30a4c4d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@2x.png b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@2x.png
+new file mode 100644
+index 0000000..141ba88
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@3x.png b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@3x.png
+new file mode 100644
+index 0000000..9a39a46
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Events.imageset/calendar@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape.png b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape.png
+new file mode 100644
+index 0000000..6378f1d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@2x.png b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@2x.png
+new file mode 100644
+index 0000000..7045e7c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@3x.png b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@3x.png
+new file mode 100644
+index 0000000..c951534
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Combined Shape@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Contents.json
+new file mode 100644
+index 0000000..5066e1d
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/HomeIcon.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Combined Shape.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Combined Shape@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Combined Shape@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Contents.json
+new file mode 100644
+index 0000000..89de826
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 4.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 4@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 4@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4.png b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4.png
+new file mode 100644
+index 0000000..451eb05
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@2x.png b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@2x.png
+new file mode 100644
+index 0000000..5a44336
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@3x.png b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@3x.png
+new file mode 100644
+index 0000000..9927d3e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications.imageset/Group 4@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Contents.json
+new file mode 100644
+index 0000000..84fb02e
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 3.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 3@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 3@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3.png b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3.png
+new file mode 100644
+index 0000000..ae45a58
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@2x.png b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@2x.png
+new file mode 100644
+index 0000000..0089f0c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@3x.png b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@3x.png
+new file mode 100644
+index 0000000..3e60c04
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Notifications_New.imageset/Group 3@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/Contents.json
+new file mode 100644
+index 0000000..3a165bf
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "user.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "user@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "user@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user.png b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user.png
+new file mode 100644
+index 0000000..cbb694b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@2x.png b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@2x.png
+new file mode 100644
+index 0000000..38148b2
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@3x.png b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@3x.png
+new file mode 100644
+index 0000000..68015b6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Profile.imageset/user@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/Contents.json
+new file mode 100644
+index 0000000..e760b52
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "noun_1548255_cc.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "noun_1548255_cc@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "noun_1548255_cc@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc.png b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc.png
+new file mode 100644
+index 0000000..8311847
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@2x.png b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@2x.png
+new file mode 100644
+index 0000000..1ac426e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@3x.png b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@3x.png
+new file mode 100644
+index 0000000..ad974bb
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/PromotionsIcon.imageset/noun_1548255_cc@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/Contents.json b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/Contents.json
+new file mode 100644
+index 0000000..58ce74b
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "noun_663868_cc.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "noun_663868_cc@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "noun_663868_cc@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc.png b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc.png
+new file mode 100644
+index 0000000..756b5bd
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@2x.png b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@2x.png
+new file mode 100644
+index 0000000..9215c12
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@3x.png b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@3x.png
+new file mode 100644
+index 0000000..831e28a
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/TabBar/Treatments.imageset/noun_663868_cc@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Contents.json b/DermaCycle/Assets.xcassets/Treatment/Contents.json
+new file mode 100644
+index 0000000..73c0059
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/Contents.json
+@@ -0,0 +1,6 @@
++{
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Contents.json
+new file mode 100644
+index 0000000..0f34f58
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Page 1.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Page 1@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Page 1@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1.png b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1.png
+new file mode 100644
+index 0000000..6373e98
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@2x.png b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@2x.png
+new file mode 100644
+index 0000000..0bc1168
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@3x.png b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@3x.png
+new file mode 100644
+index 0000000..764edee
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/CorporalTreatment.imageset/Page 1@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Contents.json
+new file mode 100644
+index 0000000..84fb02e
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 3.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 3@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 3@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3.png b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3.png
+new file mode 100644
+index 0000000..1753107
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@2x.png b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@2x.png
+new file mode 100644
+index 0000000..d0add4e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@3x.png b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@3x.png
+new file mode 100644
+index 0000000..1949a6b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/EmailButton.imageset/Group 3@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap.png
+new file mode 100644
+index 0000000..4f67da6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..23431f1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..1a0fb50
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/Facial1.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap.png
+new file mode 100644
+index 0000000..827a3a5
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..71aad55
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..0242db5
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/Facial2.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap.png
+new file mode 100644
+index 0000000..6150734
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..41e0bae
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..fb1c32b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/Facial3.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap.png
+new file mode 100644
+index 0000000..2d3709d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..6e769ac
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..6fd26e2
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/FacialDetail.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Contents.json
+new file mode 100644
+index 0000000..83b04e2
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Page 2.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Page 2@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Page 2@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2.png b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2.png
+new file mode 100644
+index 0000000..2fcd467
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@2x.png b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@2x.png
+new file mode 100644
+index 0000000..e163d6b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@3x.png b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@3x.png
+new file mode 100644
+index 0000000..775680c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/FacialTreatment.imageset/Page 2@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap.png
+new file mode 100644
+index 0000000..c720477
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..520b0ca
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..18a4f6d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/HairRemoval.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Contents.json
+new file mode 100644
+index 0000000..0f34f58
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Page 1.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Page 1@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Page 1@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1.png b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1.png
+new file mode 100644
+index 0000000..d646ad4
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@2x.png b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@2x.png
+new file mode 100644
+index 0000000..73bdbb8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@3x.png b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@3x.png
+new file mode 100644
+index 0000000..8b07ed3
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/MenTreatment.imageset/Page 1@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Contents.json
+new file mode 100644
+index 0000000..99848ed
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 2 Copy.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 2 Copy@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 2 Copy@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy.png b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy.png
+new file mode 100644
+index 0000000..bb1f8e4
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@2x.png b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@2x.png
+new file mode 100644
+index 0000000..ac58b3f
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@3x.png b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@3x.png
+new file mode 100644
+index 0000000..9874b41
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/PhoneButton.imageset/Group 2 Copy@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Contents.json
+new file mode 100644
+index 0000000..de1992c
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Rectangle 2.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Rectangle 2@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Rectangle 2@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2.png b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2.png
+new file mode 100644
+index 0000000..66d1baf
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@2x.png b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@2x.png
+new file mode 100644
+index 0000000..75dfe54
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@3x.png b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@3x.png
+new file mode 100644
+index 0000000..31a3d97
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/TreatmentCell.imageset/Rectangle 2@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Contents.json b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Contents.json
+new file mode 100644
+index 0000000..c3bf0a4
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Group 10.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Group 10@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Group 10@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10.png b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10.png
+new file mode 100644
+index 0000000..119b089
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@2x.png b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@2x.png
+new file mode 100644
+index 0000000..36363a1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@3x.png b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@3x.png
+new file mode 100644
+index 0000000..f736fb6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Treatment/WhatsappButton.imageset/Group 10@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap.png b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap.png
+new file mode 100644
+index 0000000..777894c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap.png differ
+diff --git a/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@2x.png b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@2x.png
+new file mode 100644
+index 0000000..c10f129
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@3x.png b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@3x.png
+new file mode 100644
+index 0000000..8094257
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/Turnos.imageset/Bitmap@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/Turnos.imageset/Contents.json b/DermaCycle/Assets.xcassets/Turnos.imageset/Contents.json
+new file mode 100644
+index 0000000..e130d15
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/Turnos.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Bitmap.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Bitmap@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Bitmap@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/back-arrow.imageset/Contents.json b/DermaCycle/Assets.xcassets/back-arrow.imageset/Contents.json
+new file mode 100644
+index 0000000..288ec7b
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/back-arrow.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "backchev.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "backchev@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "backchev@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev.png b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev.png
+new file mode 100644
+index 0000000..c1c362c
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev.png differ
+diff --git a/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@2x.png b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@2x.png
+new file mode 100644
+index 0000000..34181ae
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@3x.png b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@3x.png
+new file mode 100644
+index 0000000..1dc5fa1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-arrow.imageset/backchev@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/back-chevron.imageset/Contents.json b/DermaCycle/Assets.xcassets/back-chevron.imageset/Contents.json
+new file mode 100644
+index 0000000..5bec95e
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/back-chevron.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "chevron-left.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "chevron-left@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "chevron-left@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left.png b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left.png
+new file mode 100644
+index 0000000..fe9d4f1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left.png differ
+diff --git a/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@2x.png b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@2x.png
+new file mode 100644
+index 0000000..60e7ead
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@3x.png b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@3x.png
+new file mode 100644
+index 0000000..2fe459e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/back-chevron.imageset/chevron-left@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/button-highlight.imageset/Contents.json b/DermaCycle/Assets.xcassets/button-highlight.imageset/Contents.json
+new file mode 100644
+index 0000000..95ae0da
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/button-highlight.imageset/Contents.json
+@@ -0,0 +1,65 @@
++{
++  "images" : [
++    {
++      "filename" : "button-highlight.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 15,
++          "left" : 16,
++          "right" : 8,
++          "top" : 0
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "1x"
++    },
++    {
++      "filename" : "button-highlight@2x.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 32,
++          "left" : 32,
++          "right" : 19,
++          "top" : 0
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "2x"
++    },
++    {
++      "filename" : "button-highlight@3x.png",
++      "idiom" : "universal",
++      "resizing" : {
++        "cap-insets" : {
++          "bottom" : 49,
++          "left" : 49,
++          "right" : 40,
++          "top" : 0
++        },
++        "center" : {
++          "height" : 1,
++          "mode" : "tile",
++          "width" : 1
++        },
++        "mode" : "9-part"
++      },
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight.png b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight.png
+new file mode 100644
+index 0000000..45f570b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight.png differ
+diff --git a/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@2x.png b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@2x.png
+new file mode 100644
+index 0000000..4c9813d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@3x.png b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@3x.png
+new file mode 100644
+index 0000000..ec42962
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/button-highlight.imageset/button-highlight@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/check-square.imageset/Contents.json b/DermaCycle/Assets.xcassets/check-square.imageset/Contents.json
+new file mode 100644
+index 0000000..d201094
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/check-square.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "check-square.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "check-square@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "check-square@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/check-square.imageset/check-square.png b/DermaCycle/Assets.xcassets/check-square.imageset/check-square.png
+new file mode 100644
+index 0000000..3a95e28
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/check-square.imageset/check-square.png differ
+diff --git a/DermaCycle/Assets.xcassets/check-square.imageset/check-square@2x.png b/DermaCycle/Assets.xcassets/check-square.imageset/check-square@2x.png
+new file mode 100644
+index 0000000..14c7d1e
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/check-square.imageset/check-square@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/check-square.imageset/check-square@3x.png b/DermaCycle/Assets.xcassets/check-square.imageset/check-square@3x.png
+new file mode 100644
+index 0000000..d3cd782
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/check-square.imageset/check-square@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/chevron-down.imageset/Contents.json b/DermaCycle/Assets.xcassets/chevron-down.imageset/Contents.json
+new file mode 100644
+index 0000000..6211d84
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/chevron-down.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "chevron-down.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "chevron-down@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "chevron-down@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down.png b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down.png
+new file mode 100644
+index 0000000..8f3456a
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down.png differ
+diff --git a/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@2x.png b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@2x.png
+new file mode 100644
+index 0000000..8df7179
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@3x.png b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@3x.png
+new file mode 100644
+index 0000000..5f91982
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/chevron-down.imageset/chevron-down@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close-large.imageset/Contents.json b/DermaCycle/Assets.xcassets/close-large.imageset/Contents.json
+new file mode 100644
+index 0000000..286361d
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/close-large.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "x.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "x@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "x@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/close-large.imageset/x.png b/DermaCycle/Assets.xcassets/close-large.imageset/x.png
+new file mode 100644
+index 0000000..1bfc246
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close-large.imageset/x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close-large.imageset/x@2x.png b/DermaCycle/Assets.xcassets/close-large.imageset/x@2x.png
+new file mode 100644
+index 0000000..1fa2297
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close-large.imageset/x@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close-large.imageset/x@3x.png b/DermaCycle/Assets.xcassets/close-large.imageset/x@3x.png
+new file mode 100644
+index 0000000..9ad5ddc
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close-large.imageset/x@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close_btn.imageset/Contents.json b/DermaCycle/Assets.xcassets/close_btn.imageset/Contents.json
+new file mode 100644
+index 0000000..286361d
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/close_btn.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "x.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "x@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "x@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/close_btn.imageset/x.png b/DermaCycle/Assets.xcassets/close_btn.imageset/x.png
+new file mode 100644
+index 0000000..c7e549a
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close_btn.imageset/x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close_btn.imageset/x@2x.png b/DermaCycle/Assets.xcassets/close_btn.imageset/x@2x.png
+new file mode 100644
+index 0000000..97e97ac
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close_btn.imageset/x@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/close_btn.imageset/x@3x.png b/DermaCycle/Assets.xcassets/close_btn.imageset/x@3x.png
+new file mode 100644
+index 0000000..5f1a164
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/close_btn.imageset/x@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/green-check.imageset/Contents.json b/DermaCycle/Assets.xcassets/green-check.imageset/Contents.json
+new file mode 100644
+index 0000000..3f4957b
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/green-check.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "check.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "check@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "check@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/green-check.imageset/check.png b/DermaCycle/Assets.xcassets/green-check.imageset/check.png
+new file mode 100644
+index 0000000..84ee85d
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/green-check.imageset/check.png differ
+diff --git a/DermaCycle/Assets.xcassets/green-check.imageset/check@2x.png b/DermaCycle/Assets.xcassets/green-check.imageset/check@2x.png
+new file mode 100644
+index 0000000..f543709
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/green-check.imageset/check@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/green-check.imageset/check@3x.png b/DermaCycle/Assets.xcassets/green-check.imageset/check@3x.png
+new file mode 100644
+index 0000000..8cad473
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/green-check.imageset/check@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/next-arrow.imageset/Contents.json b/DermaCycle/Assets.xcassets/next-arrow.imageset/Contents.json
+new file mode 100644
+index 0000000..da1ce29
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/next-arrow.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "Shape.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "Shape@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "Shape@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape.png b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape.png
+new file mode 100644
+index 0000000..d1bb494
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape.png differ
+diff --git a/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@2x.png b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@2x.png
+new file mode 100644
+index 0000000..9d743bd
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@3x.png b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@3x.png
+new file mode 100644
+index 0000000..e0ba9f3
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next-arrow.imageset/Shape@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/next.imageset/Contents.json b/DermaCycle/Assets.xcassets/next.imageset/Contents.json
+new file mode 100644
+index 0000000..5994c03
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/next.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "img_306426.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "img_306426@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "img_306426@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/next.imageset/img_306426.png b/DermaCycle/Assets.xcassets/next.imageset/img_306426.png
+new file mode 100644
+index 0000000..5a86efd
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next.imageset/img_306426.png differ
+diff --git a/DermaCycle/Assets.xcassets/next.imageset/img_306426@2x.png b/DermaCycle/Assets.xcassets/next.imageset/img_306426@2x.png
+new file mode 100644
+index 0000000..f9d6f6b
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next.imageset/img_306426@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/next.imageset/img_306426@3x.png b/DermaCycle/Assets.xcassets/next.imageset/img_306426@3x.png
+new file mode 100644
+index 0000000..fe39cb1
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/next.imageset/img_306426@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/power.imageset/Contents.json b/DermaCycle/Assets.xcassets/power.imageset/Contents.json
+new file mode 100644
+index 0000000..8ca31ef
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/power.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "power.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "power@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "power@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/power.imageset/power.png b/DermaCycle/Assets.xcassets/power.imageset/power.png
+new file mode 100644
+index 0000000..8430237
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/power.imageset/power.png differ
+diff --git a/DermaCycle/Assets.xcassets/power.imageset/power@2x.png b/DermaCycle/Assets.xcassets/power.imageset/power@2x.png
+new file mode 100644
+index 0000000..7d57400
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/power.imageset/power@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/power.imageset/power@3x.png b/DermaCycle/Assets.xcassets/power.imageset/power@3x.png
+new file mode 100644
+index 0000000..97476b6
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/power.imageset/power@3x.png differ
+diff --git a/DermaCycle/Assets.xcassets/square.imageset/Contents.json b/DermaCycle/Assets.xcassets/square.imageset/Contents.json
+new file mode 100644
+index 0000000..71626f7
+--- /dev/null
++++ b/DermaCycle/Assets.xcassets/square.imageset/Contents.json
+@@ -0,0 +1,23 @@
++{
++  "images" : [
++    {
++      "filename" : "square.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "filename" : "square@2x.png",
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "filename" : "square@3x.png",
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+diff --git a/DermaCycle/Assets.xcassets/square.imageset/square.png b/DermaCycle/Assets.xcassets/square.imageset/square.png
+new file mode 100644
+index 0000000..857fd55
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/square.imageset/square.png differ
+diff --git a/DermaCycle/Assets.xcassets/square.imageset/square@2x.png b/DermaCycle/Assets.xcassets/square.imageset/square@2x.png
+new file mode 100644
+index 0000000..9c71dbc
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/square.imageset/square@2x.png differ
+diff --git a/DermaCycle/Assets.xcassets/square.imageset/square@3x.png b/DermaCycle/Assets.xcassets/square.imageset/square@3x.png
+new file mode 100644
+index 0000000..a6184d8
+Binary files /dev/null and b/DermaCycle/Assets.xcassets/square.imageset/square@3x.png differ
+diff --git a/DermaCycle/ContentView.swift b/DermaCycle/ContentView.swift
+deleted file mode 100644
+index 75d854c..0000000
+--- a/DermaCycle/ContentView.swift
++++ /dev/null
+@@ -1,110 +0,0 @@
+-//
+-//  ContentView.swift
+-//  DermaCycle
+-//
+-//  Created by Franco Carreiro Eugenio on 01/08/2023.
+-//
+-
+-import SwiftUI
+-
+-
+-
+-struct ContentView: View {
+-    
+-    @Environment(\.verticalSizeClass) var sizeClass
+-    @State private var showSplash = true
+-    @State private var compactDesign = compactDesignView()
+-    
+-    var body: some View {
+-        
+-        
+-        if showSplash {
+-            SplashScreenView()
+-                .onAppear {
+-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+-                        withAnimation {
+-                            self.showSplash = false
+-                            
+-                        }
+-                    }
+-                }
+-        }
+-        else {
+-            if sizeClass == .regular {
+-                
+-                    regularDesign()
+-                
+-            }
+-            else {
+-                
+-                compactDesign
+-            } 
+-        }
+-    }
+-}
+-struct regularDesign: View {
+-    
+-    let urlShare = URL(string: "https://dermacycle.com.ar/es/")
+-    var body: some View {
+-        
+-        VStack {
+-            VStack{
+-          
+-                ZStack(alignment: Alignment(horizontal: .trailing, vertical: .bottom)){
+-                    
+-                    
+-                    Image("Dermacycle Logo")
+-                        .resizable()
+-                        .frame(width: 400, height: 80)
+-                        .scaledToFill()
+-                        
+-                  
+-                        
+-                    ShareLink(item: urlShare!)
+-                        .foregroundColor(.white)
+-                }
+-               
+-            }
+-            
+-            TabView {
+-                homeView()
+-                    .tabItem {
+-                        Label("", systemImage: "house")
+-                    }
+-                promocionesView()
+-                    .tabItem {
+-                        Label("", systemImage: "megaphone")
+-                        
+-                    }
+-                NotificacionesView()
+-                    .tabItem {
+-                        Label("", systemImage: "bell")
+-                        
+-                    }
+-                calendarioView()
+-                    .tabItem {
+-                        Label("", systemImage: "calendar")
+-                    }
+-                
+-                userProfileView()
+-                    .tabItem {
+-                        Label("", systemImage: "person")
+-                        
+-                    }
+-            } 
+-        
+-        }
+-        
+-    
+-        
+-        
+-    }
+-    
+-    struct ContentView_Previews: PreviewProvider {
+-        static var previews: some View {
+-            ContentView()
+-        }
+-    }
+-    
+-    
+-}
+diff --git a/DermaCycle/Model/Contacto.swift b/DermaCycle/Model/Contacto.swift
+new file mode 100644
+index 0000000..ed1e15a
+--- /dev/null
++++ b/DermaCycle/Model/Contacto.swift
+@@ -0,0 +1,46 @@
++//
++//  Promocion.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 24/09/2023.
++//
++
++import Foundation
++
++// MODELO DE LOS DATOS DE CONTACTO Y PROMOCIONES
++
++struct responseServicioPromocion : Codable, Identifiable {
++    
++    
++    let Promociones : [Promociones?]
++    let Contacto : Contacto
++  
++    let Mensaje : String?
++    var id: UUID?
++    
++}
++
++struct Promociones : Codable, Identifiable {
++    
++    let Promociones : [String?]
++    var id: UUID?
++}
++    
++    
++struct Contacto : Codable, Identifiable {
++   
++        let Direccion : String?
++        let Telefono_1 : String?
++        let Telefono_2 : String?
++        let Telefono_3 : String?
++        let Whatsapp : String?
++        let Facbook : String?
++        let Twitter : String?
++        let Instagram : String?
++        let Email : String?
++        let Costo : String?
++    var id: UUID?
++        
++    }
++
++
+diff --git a/DermaCycle/Model/TratamientosModel.swift b/DermaCycle/Model/TratamientosModel.swift
+new file mode 100644
+index 0000000..9b5151a
+--- /dev/null
++++ b/DermaCycle/Model/TratamientosModel.swift
+@@ -0,0 +1,45 @@
++//
++//  Tratamientos.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 24/09/2023.
++//
++
++import Foundation
++import SwiftUI
++
++//MODELO DE LA LISTA DE TRATAMIENTOS
++
++struct responseTratamientos : Codable {
++    
++    let Tratamientos : [Tratamientos]
++    let Mensaje : String?
++    
++    
++}
++
++
++struct Tratamientos : Codable {
++    
++    var Id: Int?
++    let Categoria : String?
++    let TipoLetra : String?
++    let Imagen : String?
++    let Titulo : String?
++    let Copete : String?
++    let Descripcion : String?
++    
++    
++}
++
++extension Image {    //TRANSFORMAR EL STRING DE LA URL DE LA IMAGEN EN UNA UIIMAGE
++    
++    func loadImage(url: URL) -> Self {
++        if let loadImage = try? Data(contentsOf: url) {
++            return Image(uiImage: UIImage(data: loadImage)!)
++                .resizable()
++        }
++        return self
++            .resizable()
++    }
++}
+diff --git a/DermaCycle/NotificacionesView.swift b/DermaCycle/NotificacionesView.swift
+deleted file mode 100644
+index eb31546..0000000
+--- a/DermaCycle/NotificacionesView.swift
++++ /dev/null
+@@ -1,22 +0,0 @@
+-//
+-//  NotificacionesView.swift
+-//  DermaCycle
+-//
+-//  Created by Franco Carreiro Eugenio on 11/08/2023.
+-//
+-
+-import SwiftUI
+-
+-
+-
+-struct NotificacionesView: View {
+-    var body: some View {
+-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+-    }
+-}
+-
+-struct NotificacionesView_Previews: PreviewProvider {
+-    static var previews: some View {
+-        NotificacionesView()
+-    }
+-}
+diff --git a/DermaCycle/VM/PromocionesViewModel.swift b/DermaCycle/VM/PromocionesViewModel.swift
+new file mode 100644
+index 0000000..b1e32fe
+--- /dev/null
++++ b/DermaCycle/VM/PromocionesViewModel.swift
+@@ -0,0 +1,70 @@
++//
++//  PromocionesViewModel.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 02/10/2023.
++//
++
++import Foundation
++
++
++@MainActor
++class promocionesViewModel: ObservableObject {
++    
++    
++    @Published var dataContacto : [Contacto] = []
++    @Published var promos : [Promociones] = []
++    
++    
++    func fetchContacto() async {
++        
++        var request = URLRequest(url: URL(string: "https://api-dermacycle.clearsky.com.ar/Promocion.ashx")!, timeoutInterval: Double.infinity)
++        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++        request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++        request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++        request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++        request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++        request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++        
++        request.httpMethod = "GET"
++        
++        do {
++            
++            
++            let (data, _) = try await URLSession.shared.data(for: request)
++            let json = try JSONDecoder().decode(responseServicioPromocion.self, from: data)
++            //  print(json.Mensaje ?? "sin promociones")
++            self.dataContacto = [json.Contacto]
++        } catch let error as NSError {
++            print("error en la API", error.localizedDescription)
++        }
++    }
++    
++}
++    
++    //  func fetchPromociones() async {
++    
++    //    var request = URLRequest(url: URL(string: // "https://api-dermacycle.clearsky.com.ar/Promocion.ashx")!, timeoutInterval:  Double.infinity)
++    //    request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++    //    request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++    //    request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++    //    request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++    //   request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++    //   request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++    
++    //   request.httpMethod = "GET"
++    
++    //  do {
++    
++    
++    //       let (data, _) = try await URLSession.shared.data(for: request)
++    //     let json = try JSONDecoder().decode(responseServicioPromocion.self, from: data)
++    //      print(json.Mensaje ?? "sin promociones")
++    //      self.promociones = [json.Promociones]
++    //   } catch let error as NSError {
++    //     print("sin promociones", error.localizedDescription)
++    //  }
++    //  }
++       
++    
++
+diff --git a/DermaCycle/VM/TratamientosCViewModel.swift b/DermaCycle/VM/TratamientosCViewModel.swift
+new file mode 100644
+index 0000000..8b81deb
+--- /dev/null
++++ b/DermaCycle/VM/TratamientosCViewModel.swift
+@@ -0,0 +1,40 @@
++//
++//  TratamientosViewModel.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 05/10/2023.
++//
++
++import Foundation
++
++// @MainActor
++class tratamientosCViewModel: ObservableObject {
++   
++ 
++   @Published var tratamientosCModel : [Tratamientos] = []
++ 
++   
++   
++   func fetchTratamientosC() async {   //METODO PARA DECODIFICAR LOS TRATAMIENTOS CORPORALES
++       
++       var request = URLRequest(url: URL(string: "https://api-dermacycle.clearsky.com.ar/Tratamiento.ashx?Tipo=TC")!, timeoutInterval: Double.infinity)
++       request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++       request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++       request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++       request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++       request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++       request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++
++       request.httpMethod = "GET"
++       
++       do {
++         
++           let (data, _) = try await URLSession.shared.data(for: request)
++           let json = try JSONDecoder().decode(responseTratamientos.self, from: data)
++         
++           self.tratamientosCModel = json.Tratamientos
++       } catch let error as NSError {
++           print("error en la API", error.localizedDescription)
++       }
++   }
++}
+diff --git a/DermaCycle/VM/TratamientosDCViewModel.swift b/DermaCycle/VM/TratamientosDCViewModel.swift
+new file mode 100644
+index 0000000..f243148
+--- /dev/null
++++ b/DermaCycle/VM/TratamientosDCViewModel.swift
+@@ -0,0 +1,40 @@
++//
++//  TratamientosDLViewModel.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import Foundation
++
++
++class tratamientosDCViewModel: ObservableObject {
++   
++ 
++   @Published var tratamientosDCModel : [Tratamientos] = []
++ 
++   
++   
++   func fetchTratamientosDC() async {  //METODO PARA DECODIFICAR LOS TRATAMIENTOS DEP. LASER
++       
++       var request = URLRequest(url: URL(string: "https://api-dermacycle.clearsky.com.ar/Tratamiento.ashx?Tipo=DC")!, timeoutInterval: Double.infinity)
++       request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++       request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++       request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++       request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++       request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++       request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++
++       request.httpMethod = "GET"
++       
++       do {
++         
++           let (data, _) = try await URLSession.shared.data(for: request)
++           let json = try JSONDecoder().decode(responseTratamientos.self, from: data)
++         
++           self.tratamientosDCModel = json.Tratamientos
++       } catch let error as NSError {
++           print("error en la API", error.localizedDescription)
++       }
++   }
++}
+diff --git a/DermaCycle/VM/TratamientosEMViewModel.swift b/DermaCycle/VM/TratamientosEMViewModel.swift
+new file mode 100644
+index 0000000..77d919f
+--- /dev/null
++++ b/DermaCycle/VM/TratamientosEMViewModel.swift
+@@ -0,0 +1,40 @@
++//
++//  TratamientosEMViewModel.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import Foundation
++
++
++class tratamientosEmViewModel: ObservableObject {
++   
++ 
++   @Published var tratamientosEmModel : [Tratamientos] = []
++ 
++   
++   
++   func fetchTratamientosEM() async {   //METODO PARA DECODIFICAR LOS TRATAMIENTOS MASCULINOS
++       
++       var request = URLRequest(url: URL(string: "https://api-dermacycle.clearsky.com.ar/Tratamiento.ashx?Tipo=EM")!, timeoutInterval: Double.infinity)
++       request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++       request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++       request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++       request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++       request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++       request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++
++       request.httpMethod = "GET"
++       
++       do {
++         
++           let (data, _) = try await URLSession.shared.data(for: request)
++           let json = try JSONDecoder().decode(responseTratamientos.self, from: data)
++         
++           self.tratamientosEmModel = json.Tratamientos
++       } catch let error as NSError {
++           print("error en la API", error.localizedDescription)
++       }
++   }
++}
+diff --git a/DermaCycle/VM/TratamientosFModel.swift b/DermaCycle/VM/TratamientosFModel.swift
+new file mode 100644
+index 0000000..0411527
+--- /dev/null
++++ b/DermaCycle/VM/TratamientosFModel.swift
+@@ -0,0 +1,40 @@
++//
++//  TratamientosFModel.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import Foundation
++
++
++class tratamientosFViewModel: ObservableObject {
++   
++ 
++   @Published var tratamientosFModel : [Tratamientos] = []
++ 
++   
++   
++   func fetchTratamientosF() async {   //METODO PARA DECODIFICAR LOS TRATAMIENTOS FACIALES
++       
++       var request = URLRequest(url: URL(string: "https://api-dermacycle.clearsky.com.ar/Tratamiento.ashx?Tipo=TF")!, timeoutInterval: Double.infinity)
++       request.addValue("application/json", forHTTPHeaderField: "Content-Type")
++       request.addValue("Dermacycle2018", forHTTPHeaderField: "User")
++       request.addValue("7c4e22f4-6a6c-48de-b1c9-075979233ce5", forHTTPHeaderField: "Password")
++       request.addValue("iPhone 7", forHTTPHeaderField: "Dispositivo")
++       request.addValue("iOS 11.2.2", forHTTPHeaderField: "VersionSO")
++       request.addValue("1.0.1", forHTTPHeaderField: "VersionAPP")
++
++       request.httpMethod = "GET"
++       
++       do {
++         
++           let (data, _) = try await URLSession.shared.data(for: request)
++           let json = try JSONDecoder().decode(responseTratamientos.self, from: data)
++         
++           self.tratamientosFModel = json.Tratamientos
++       } catch let error as NSError {
++           print("error en la API", error.localizedDescription)
++       }
++   }
++}
+diff --git a/DermaCycle/View/ContentView.swift b/DermaCycle/View/ContentView.swift
+new file mode 100644
+index 0000000..2e04144
+--- /dev/null
++++ b/DermaCycle/View/ContentView.swift
+@@ -0,0 +1,96 @@
++//
++//  ContentView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 01/08/2023.
++//
++
++import SwiftUI
++
++
++
++struct ContentView: View {
++    
++    
++    @State private var showSplash = true
++    let urlShare = URL(string: "https://dermacycle.com.ar/es/")
++    
++    var body: some View {
++        
++        
++        if showSplash {               //SE PRESENTA SPLASHSCREEN POR 3 SEG.
++            SplashScreenView()
++                .onAppear {
++                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
++                        withAnimation {
++                            self.showSplash = false
++                            
++                        }
++                    }
++                }
++        }
++        else {
++            
++            
++                VStack{            //ENCABEZADO DE TODA LA APP + SHARE BUTTON
++                    
++                    ZStack(alignment: Alignment(horizontal: .trailing, vertical: .bottom)){
++                        
++                        
++                        Image("Dermacycle Logo")
++                            .resizable()
++                            .frame(width: 400, height: 80)
++                            .scaledToFill()
++                        
++                        
++                        
++                        ShareLink(item: urlShare!)
++                            .foregroundColor(.white)
++                    }
++                    
++                    
++                
++                    
++                    
++                    TabView {         //TABVIEW CON LAS 5 CATEGORIAS DE LA APP
++                        homeView()
++                            .tabItem {
++                                Label("", systemImage: "house")
++                            }
++                        promocionesView()
++                            .tabItem {
++                                Label("", systemImage: "megaphone")
++                                
++                            }
++                        NotificacionesView()
++                            .tabItem {
++                                Label("", systemImage: "bell") }
++                       
++                        userView()
++                            .tabItem {
++                                Label("", systemImage: "person")
++                                
++                            }
++                        calendarioView()
++                            .tabItem {
++                                Label("", systemImage: "calendar")
++                            }
++                        
++                      
++                    }
++                    
++                }
++                
++            }
++            }
++        }
++
++
++    
++    struct ContentView_Previews: PreviewProvider {
++        static var previews: some View {
++            ContentView()
++        }
++    }
++    
++    
+diff --git a/DermaCycle/View/NotificacionesView.swift b/DermaCycle/View/NotificacionesView.swift
+new file mode 100644
+index 0000000..9c3cc62
+--- /dev/null
++++ b/DermaCycle/View/NotificacionesView.swift
+@@ -0,0 +1,91 @@
++//
++//  NotificacionesView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 15/10/2023.
++//
++
++import SwiftUI
++
++struct NotificacionesView: View {
++    
++    @StateObject var datosContacto = promocionesViewModel()
++    var body: some View {
++        VStack{
++            Spacer()
++            Text("Nuestra forma de comunicarnos con vos")
++            
++            
++            // DATOS DE CONTACTO 
++            List(datosContacto.dataContacto){ item in
++              Spacer()
++                HStack {
++                    Spacer()
++                    Image(systemName: "phone.down.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label: {
++                                Text(item.Telefono_1!) }
++                            Button {
++                            } label: {
++                                Text(item.Telefono_2!)
++                            }
++                            Button {
++                            } label: {
++                                Text(item.Telefono_3!)
++                            }
++                            
++                        }
++                    Image(systemName: "envelope.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Email!)
++                            }
++                        }
++                    
++                    Image(systemName: "phone.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Whatsapp!)
++                            }
++                        }
++                    Image(systemName: "paperplane.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Direccion!)
++                            }
++                        }
++                    Image(systemName: "person.3.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label: {
++                                Text(item.Facbook!) }
++                            Button {
++                            } label: {
++                                Text(item.Instagram!)
++                            }
++                            Button {
++                            } label: {
++                                Text(item.Twitter!)
++                            }
++                        }
++                    Spacer()
++                } .padding()
++                
++            } .task {
++                await datosContacto.fetchContacto()
++            }
++        }
++    }
++}
++#Preview {
++    NotificacionesView()
++}
+diff --git a/DermaCycle/View/TratamientosCorporalesView.swift b/DermaCycle/View/TratamientosCorporalesView.swift
+new file mode 100644
+index 0000000..5d6ca1a
+--- /dev/null
++++ b/DermaCycle/View/TratamientosCorporalesView.swift
+@@ -0,0 +1,75 @@
++//
++//  TratamientosCorporalesView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import SwiftUI
++
++struct TratamientosCorporalesView: View {
++@StateObject var tratamientosCorporales = tratamientosCViewModel() //creo una instancia del VM
++@Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
++    
++    var body: some View {
++      
++        ScrollView{
++            NavigationView {
++                VStack {
++                    List(tratamientosCorporales.tratamientosCModel, id:\.Id) { item in
++                        NavigationLink{      //LINK HACIA LA DESCRIPCION DEL TRATAMIENTO
++                            VStack{
++                                Image(systemName: "person.fill")
++                                    .loadImage(url: URL(string: item.Imagen!)!)
++                                    .frame(width: 400, height: 200)
++                                Text(item.Descripcion ?? "")
++                            }
++                            }
++                        label: {      //UTILIZO ETIQUETA DE IMAGEN+TITULO+COPETE
++                            ZStack{
++                                
++                                Image(systemName: "person.fill")
++                                    .loadImage(url: URL(string: item.Imagen!)!)
++                                    .frame(width: 400, height: 200)
++                                VStack{
++                                    Text(item.Titulo ?? "")
++                                        .font(.title)
++                                    Text(item.Copete ?? "")
++                                        .font(.caption)
++                                }
++                              }
++                             }
++                            }
++                    .task {
++                        await tratamientosCorporales.fetchTratamientosC()  //FUNCION PARA TRAER LOS TRATAMIENTOS
++                            }
++                            }
++                            
++                        
++                        } .navigationTitle("Tratamientos Corporales")
++            // BACK BUTTON
++                .navigationBarBackButtonHidden(true)
++                .toolbar { content:  do {
++                    ToolbarItem(placement:
++                            .navigationBarLeading) {
++                                Button(action: {
++                                    presentationMode.wrappedValue
++                                        .dismiss()
++                                }, label: {
++                                    Image("close_btn")
++                                    
++                                    Text("Back")
++                                })
++                            }
++                }
++                }
++            // BACK BUTTON
++                    }
++                }
++}
++
++#Preview {
++    TratamientosCorporalesView()
++}
++
++
+diff --git a/DermaCycle/View/TratamientosFacialesView.swift b/DermaCycle/View/TratamientosFacialesView.swift
+new file mode 100644
+index 0000000..ce4391a
+--- /dev/null
++++ b/DermaCycle/View/TratamientosFacialesView.swift
+@@ -0,0 +1,84 @@
++//
++//  TrtamientosFacialesView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import SwiftUI
++
++struct TratamientosFacialesView: View {
++    
++    @StateObject var tratamientosFaciales = tratamientosFViewModel() //creo una instancia del VM
++    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
++    
++    
++    var body: some View {
++        
++                ScrollView{
++                    NavigationView {
++                        
++                        List(tratamientosFaciales.tratamientosFModel, id:\.Id) { item in
++                            NavigationLink{      //LINK HACIA LA DESCRIPCION DEL TRATAMIENTO
++                               
++                                    VStack{
++                                        Image(systemName: "person.fill")
++                                            .loadImage(url: URL(string: item.Imagen!)!)
++                                            .frame(width: 400, height: 200)
++                                        Text(item.Descripcion ?? "") }
++                            }
++                           
++                            label: {   //UTILIZO ETIQUETA DE IMAGEN+TITULO+COPETE
++                                ZStack{
++                                    
++                                    
++                                    Image(systemName: "person.fill")
++                                        .loadImage(url: URL(string: item.Imagen!)!)
++                                        .frame(width: 400, height: 200)
++                                    VStack{
++                                        Text(item.Titulo ?? "")
++                                            .font(.title)
++                                        Text(item.Copete ?? "")
++                                            .font(.caption)
++                                    }
++                                } .padding()
++                            }
++                          
++                        } .task {
++                            await tratamientosFaciales.fetchTratamientosF()     //FUNCION PARA TRAER LOS TRATAMIENTOS
++                        }
++                        
++                    } .navigationTitle("Tratamientos Faciales")
++                    // BACK BUTTON
++                        .navigationBarBackButtonHidden(true)
++                        .toolbar { content:  do {
++                            ToolbarItem(placement:
++                                    .navigationBarLeading) {
++                                        Button(action: {
++                                            presentationMode.wrappedValue
++                                                .dismiss()
++                                        }, label: {
++                                            Image("close_btn")
++                                            
++                                            Text("Back")
++                                        })
++                                    }
++                        }
++                        }
++                    // BACK BUTTON
++                }
++            
++            }
++    }
++
++
++#Preview {
++    TratamientosFacialesView()
++}
++
++
++extension UINavigationController {
++    open override func viewWillLayoutSubviews() {
++        navigationBar.topItem?.backButtonDisplayMode = .minimal
++    }
++}
+diff --git a/DermaCycle/calendarioView.swift b/DermaCycle/View/calendarioView.swift
+similarity index 100%
+rename from DermaCycle/calendarioView.swift
+rename to DermaCycle/View/calendarioView.swift
+diff --git a/DermaCycle/View/depilacionLaserView.swift b/DermaCycle/View/depilacionLaserView.swift
+new file mode 100644
+index 0000000..907aadd
+--- /dev/null
++++ b/DermaCycle/View/depilacionLaserView.swift
+@@ -0,0 +1,74 @@
++//
++//  depilacionLaserView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import SwiftUI
++
++struct depilacionLaserView: View {
++    @StateObject var depilacionLaser = tratamientosDCViewModel() //creo una instancia del VM
++    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
++    
++    var body: some View {
++        ScrollView{
++            NavigationView {
++                VStack {
++                    List(depilacionLaser.tratamientosDCModel, id:\.Id) { item in
++                     NavigationLink{    //LINK HACIA LA DESCRIPCION DEL TRATAMIENTO
++                            VStack{
++                                Image(systemName: "person.fill")
++                                    .loadImage(url: URL(string: item.Imagen!)!)
++                                    .frame(width: 400, height: 200)
++                                Text(item.Descripcion ?? "")
++                            }
++                        }
++                    label: {      //UTILIZO ETIQUETA DE IMAGEN+TITULO+COPETE
++                        ZStack{
++                            
++                            Image(systemName: "person.fill")
++                                .loadImage(url: URL(string: item.Imagen!)!)
++                                .frame(width: 400, height: 200)
++                            VStack{
++                                Text(item.Titulo ?? "")
++                                    .font(.title)
++                                Text(item.Copete ?? "")
++                                    .font(.caption)
++                            }
++                        }
++                    }
++                    
++                    } .task {
++                        await depilacionLaser.fetchTratamientosDC()    //FUNCION PARA TRAER LOS TRATAMIENTOS
++                    }
++                    
++                }
++            } .navigationTitle("Depilacion Laser")
++            // BACK BUTTON
++                .navigationBarBackButtonHidden(true)
++                .toolbar { content:  do {
++                    ToolbarItem(placement:
++                            .navigationBarLeading) {
++                                Button(action: {
++                                    presentationMode.wrappedValue
++                                        .dismiss()
++                                }, label: {
++                                    Image("close_btn")
++                                    
++                                    Text("Back")
++                                })
++                            }
++                }
++                }
++            // BACK BUTTON
++            
++        }
++    }
++}
++
++
++#Preview {
++    depilacionLaserView()
++    
++}
+diff --git a/DermaCycle/View/esteticaMasculinaView.swift b/DermaCycle/View/esteticaMasculinaView.swift
+new file mode 100644
+index 0000000..07467fb
+--- /dev/null
++++ b/DermaCycle/View/esteticaMasculinaView.swift
+@@ -0,0 +1,74 @@
++//
++//  esteticaMasculinaView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/10/2023.
++//
++
++import SwiftUI
++
++struct esteticaMasculinaView: View {
++    @StateObject var esteticaMasculina =  tratamientosEmViewModel() //creo una instancia del VM
++    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
++    
++    var body: some View {
++        ScrollView{
++            NavigationView {
++                VStack {
++                    List(esteticaMasculina.tratamientosEmModel, id:\.Id) { item in
++                        NavigationLink{     //LINK HACIA LA DESCRIPCION DEL TRATAMIENTO
++                            VStack{
++                                Image(systemName: "person.fill")
++                                    .loadImage(url: URL(string: item.Imagen!)!)
++                                    .frame(width: 400, height: 200)
++                                Text(item.Descripcion ?? "")
++                            }
++                        }
++                    label: {      //UTILIZO ETIQUETA DE IMAGEN+TITULO+COPETE
++                        ZStack{
++                            
++                            Image(systemName: "person.fill")
++                                .loadImage(url: URL(string: item.Imagen!)!)
++                                .frame(width: 400, height: 200)
++                            VStack{
++                                Text(item.Titulo ?? "")
++                                    .font(.title)
++                                Text(item.Copete ?? "")
++                                    .font(.caption)
++                            }
++                        }
++                    }
++                        
++                        
++                    } .task {
++                        await  esteticaMasculina.fetchTratamientosEM()    //FUNCION PARA TRAER LOS TRATAMIENTOS
++                    }
++                    
++                }
++            } .navigationTitle("Estetica Masculina")
++            // BACK BUTTON
++                .navigationBarBackButtonHidden(true)
++                .toolbar { content:  do {
++                    ToolbarItem(placement:
++                            .navigationBarLeading) {
++                                Button(action: {
++                                    presentationMode.wrappedValue
++                                        .dismiss()
++                                }, label: {
++                                    Image("close_btn")
++                                    
++                                    Text("Back")
++                                })
++                            }
++                }
++                }
++            // BACK BUTTON
++            
++        }
++    }
++}
++
++
++#Preview {
++    esteticaMasculinaView()
++}
+diff --git a/DermaCycle/View/homeView.swift b/DermaCycle/View/homeView.swift
+new file mode 100644
+index 0000000..87a31ee
+--- /dev/null
++++ b/DermaCycle/View/homeView.swift
+@@ -0,0 +1,102 @@
++//
++//  homeView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 07/08/2023.
++//
++
++import SwiftUI
++
++struct homeView: View {
++    var body: some View {
++        NavigationView {
++           
++     
++        VStack{
++            HStack {
++                
++                Image("PromotionHeader")      // FOTO DE ENCABEZADO
++                    .resizable()
++                    .frame(width: 400, height: 80)
++                    .scaledToFill()
++            }
++            
++            Spacer()
++           
++            VStack(spacing: 40){        // SE PRESENTAN LOS BOTONES CON LOS TRATAMIENTOS
++                
++                HStack {
++                    ZStack{
++                        VStack{
++                            
++                            NavigationLink("Tratamientos Faciales", destination: TratamientosFacialesView());
++                        label: do {
++                            
++                            Image("FacialTreatment")
++                               
++                        }
++                            
++                        } 
++
++                        
++                    }
++                                        ZStack{
++                        VStack{
++                            NavigationLink("Depilacion Laser", destination: depilacionLaserView());
++                        label: do {
++                            Image("HairRemoval")
++                         
++                        }
++                            
++                        }
++                        }
++                  
++                }
++                HStack {
++                    ZStack{
++                        VStack{
++                            NavigationLink("Tratamientos Corporales", destination: TratamientosCorporalesView());
++                        label: do {
++                            
++                            Image("CorporalTreatment")
++                        }
++                            
++                        }
++                        
++                    }
++                    ZStack{
++                        VStack{
++                            NavigationLink("Estetica Masculina", destination: esteticaMasculinaView());
++                        label: do {
++                            Image("MenTreatment")
++                            
++                        }
++                            
++                        }
++                        
++                    }
++               
++                }
++            }
++            .buttonStyle(.bordered)
++           
++            .padding()
++           
++            Spacer()
++        }
++        
++        
++    }
++    
++}
++        
++}
++    
++    struct homeView_Previews: PreviewProvider {
++        static var previews: some View {
++            homeView()
++            
++        }
++    }
++    
++
+diff --git a/DermaCycle/View/promocionesView.swift b/DermaCycle/View/promocionesView.swift
+new file mode 100644
+index 0000000..ffdd168
+--- /dev/null
++++ b/DermaCycle/View/promocionesView.swift
+@@ -0,0 +1,98 @@
++//
++//  promocionesView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/08/2023.
++//
++
++import SwiftUI
++
++
++struct promocionesView: View{
++    
++    @StateObject var datosContacto = promocionesViewModel()
++  @StateObject  var promociones = promocionesViewModel()
++     
++        
++        
++        var body: some View {
++            
++     
++            
++            List(datosContacto.dataContacto){ item in
++            
++                HStack {
++                    Spacer()
++                    Image(systemName: "phone.down.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label: {
++                                Text(item.Telefono_1!) }
++                            Button {
++                            } label: {
++                                Text(item.Telefono_2!)
++                            }
++                            Button {
++                            } label: {
++                                Text(item.Telefono_3!)
++                            }
++                            
++                        }
++                    Image(systemName: "envelope.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Email!)
++                            }
++                        }
++                   
++                    Image(systemName: "phone.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Whatsapp!)
++                            }
++                        }
++                    Image(systemName: "paperplane.circle.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label : {
++                                Text(item.Direccion!)
++                            }
++                        }
++                    Image(systemName: "person.3.fill")
++                        .resizable()
++                        .contextMenu {
++                            Button {
++                            } label: {
++                                Text(item.Facbook!) }
++                            Button {
++                            } label: {
++                                Text(item.Instagram!)
++                            }
++                            Button {
++                            } label: {
++                                Text(item.Twitter!)
++                            }
++                        }
++                    Spacer()
++                } .padding()
++                
++            } .task {
++                await datosContacto.fetchContacto()
++            }
++            
++        }
++    }
++
++    
++    
++struct promocionesView_Previews: PreviewProvider {
++    static var previews: some View {
++        promocionesView()
++    }
++}
+diff --git a/DermaCycle/View/userView.swift b/DermaCycle/View/userView.swift
+new file mode 100644
+index 0000000..cacb5cd
+--- /dev/null
++++ b/DermaCycle/View/userView.swift
+@@ -0,0 +1,25 @@
++//
++//  NotificacionesView.swift
++//  DermaCycle
++//
++//  Created by Franco Carreiro Eugenio on 11/08/2023.
++//
++
++import SwiftUI
++
++
++struct userView: View {
++    
++    var body: some View{
++        Text("hello world")
++    }
++}
++
++
++
++
++struct tratamientosView_Previews: PreviewProvider {
++    static var previews: some View {
++        userView()
++    }
++}
+diff --git a/DermaCycle/compactDesignView.swift b/DermaCycle/compactDesignView.swift
+index 5e70143..2ae6630 100644
+--- a/DermaCycle/compactDesignView.swift
++++ b/DermaCycle/compactDesignView.swift
+@@ -13,69 +13,88 @@ struct compactDesignView: View {
+     
+     var body: some View {
+        
++
+             VStack {
+                 
+                 ZStack {
+                     
+                     
+                     
+-                    
+-                    Image("Dermacycle Logo")
+-                        .interpolation(.none)
+-                        .resizable()
+-                    
+-                        .frame(maxHeight: 80)
+-                    
+-                        .scaledToFill()
+-                        .frame(width: 850)
++              
+                     
+                     
+-                    ShareLink(item: urlShare!)
+-                        .foregroundColor(.white)
+-                        .position(x:100, y:80)
+                     
+-                    
+-                    
+-                }
+-                
+-                
+-                TabView {
+-                    homeView()
+-                        .tabItem {
+-                            Label("", systemImage: "house")
+-                        }
+-                    promocionesView()
+-                        .tabItem {
+-                            Label("", systemImage: "megaphone")
++                    VStack {
++                        
++                        ZStack {
++                            //(alignment: Alignment(horizontal: .trailing, vertical: .bottom))
++                            
++                            
++                            Color.black
++                                .frame(width: 900)
++                                .frame(maxHeight: 100)
++                            
++                            Image("Dermacycle Logo")
++                                .resizable()
++                                .frame(width:100, height:100)
++                            
++                            
++                            
++                            
++                            
++                            ShareLink(item: urlShare!)
++                                .foregroundColor(.white)
++                                .position(x:100, y:80)
++                            
++                            
++                            
++                            
+                             
+-                        }
+-                    NotificacionesView()
+-                        .tabItem {
+-                            Label("", systemImage: "bell")
+                             
+                         }
+-                    calendarioView()
+-                        .tabItem {
+-                            Label("", systemImage: "calendar")
+-                        }
+-                    
+-                    userProfileView()
+-                        .tabItem {
+-                            Label("", systemImage: "person")
++                        
++                        
++                        
++                        TabView {
++                            homeView()
++                                .tabItem {
++                                    Label("", systemImage: "house")
++                                }
++                            promocionesView()
++                                .tabItem {
++                                    Label("", systemImage: "megaphone")
++                                    
++                                }
++                            NotificacionesView()
++                                .tabItem {
++                                    Label("", systemImage: "bell")
++                                    
++                                }
++                            calendarioView()
++                                .tabItem {
++                                    Label("", systemImage: "calendar")
++                                }
++                            
++                            userProfileView()
++                                .tabItem {
++                                    Label("", systemImage: "person")
++                                    
++                                }
+                             
+                         }
++                        
++                        
++                    }
++                    
++                    
++                }
+                     
+                 }
+-                
+-                
+-            }
+-  
+             
+-     
++     }
+       
+     }
+     
+-}
+ 
+ struct compactDesignView_Previews: PreviewProvider {
+     static var previews: some View {
+diff --git a/DermaCycle/homeView.swift b/DermaCycle/homeView.swift
+deleted file mode 100644
+index 87fd126..0000000
+--- a/DermaCycle/homeView.swift
++++ /dev/null
+@@ -1,87 +0,0 @@
+-//
+-//  homeView.swift
+-//  DermaCycle
+-//
+-//  Created by Franco Carreiro Eugenio on 07/08/2023.
+-//
+-
+-import SwiftUI
+-
+-struct homeView: View {
+-    var body: some View {
+-        
+-        
+-       ScrollView{
+-        VStack{
+-            
+-            ZStack{
+-                Color.brown
+-                //   .ignoresSafeArea(.all)
+-                    .frame(width: 2000, height: 150)
+-                    .position(x:100, y:100)
+-                HStack {
+-                    
+-                    VStack {
+-                        
+-                        Text("Tratamientos")
+-                            .font(.subheadline.weight(.heavy))
+-                        
+-                            .padding()
+-                        
+-                        
+-                        Text("Conocé más sobre nuestros servicios")
+-                            .font(.subheadline.italic())
+-                            .foregroundColor(.black)
+-                            .padding()
+-                        
+-                    } .position(x:80, y:80)
+-                    
+-                    VStack {
+-                        Image("imagen estetica")
+-                            .resizable()
+-                            .frame(width: 90, height: 90)
+-                            .clipShape(Circle())
+-                            .position(x:100, y:100)
+-                    }
+-                }
+-            }
+-            
+-            VStack(spacing: 40){
+-                VStack{
+-                    HStack {
+-                        Button("Tratamientos faciales") {
+-                            print("boton presionado")
+-                        }
+-                        Button("Depilacion Laser") {
+-                            print("boton presionado")
+-                        }
+-                    }
+-                }
+-                
+-                VStack{
+-                    HStack {
+-                        Button("Tratamientos corporales") {
+-                            print("boton presionado")
+-                        }
+-                        Button("Estetica Masculina") {
+-                            print("boton presionado")
+-                        }
+-                    }
+-                }
+-                Spacer()
+-            } .buttonStyle(.bordered)
+-            
+-        }
+-        }
+-        
+-    }
+-    }
+-        
+-     
+-
+-struct homeView_Previews: PreviewProvider {
+-    static var previews: some View {
+-        homeView()
+-           
+-    }
+-}
+diff --git a/DermaCycle/promocionesView.swift b/DermaCycle/promocionesView.swift
+deleted file mode 100644
+index 7f7aac1..0000000
+--- a/DermaCycle/promocionesView.swift
++++ /dev/null
+@@ -1,21 +0,0 @@
+-//
+-//  promocionesView.swift
+-//  DermaCycle
+-//
+-//  Created by Franco Carreiro Eugenio on 11/08/2023.
+-//
+-
+-import SwiftUI
+-
+-
+-struct promocionesView: View{
+-    var body: some View {
+-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+-    }
+-}
+-
+-struct promocionesView_Previews: PreviewProvider {
+-    static var previews: some View {
+-        promocionesView()
+-    }
+-}
+diff --git a/DermaCycle/userProfileView.swift b/DermaCycle/userProfileView.swift
+deleted file mode 100644
+index 293fd29..0000000
+--- a/DermaCycle/userProfileView.swift
++++ /dev/null
+@@ -1,20 +0,0 @@
+-//
+-//  userProfileView.swift
+-//  DermaCycle
+-//
+-//  Created by Franco Carreiro Eugenio on 21/08/2023.
+-//
+-
+-import SwiftUI
+-
+-struct userProfileView: View {
+-    var body: some View {
+-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+-    }
+-}
+-
+-struct userProfileView_Previews: PreviewProvider {
+-    static var previews: some View {
+-        userProfileView()
+-    }
+-}
